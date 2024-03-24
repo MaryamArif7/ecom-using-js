@@ -1,0 +1,109 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgb(182, 100, 230);
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hub {
+    height: 60px;
+    width: 80px;
+}
+
+.Actions {
+    margin-right: 10px;
+}
+
+.nav {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+}
+
+.nav a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.search-bar {
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    background-color: blanchedalmond;
+    height: 20px;
+    width: 20px;
+    font-weight: 300;
+    border-radius: 3px 0 0 3px;
+}
+
+.search-input {
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+    flex-grow: 1;
+    height: 40px;
+    border: 0 solid transparent;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    padding-top: 40px;
+    height: 500px;
+    width: 1400px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 80px;
+}
+
+.section {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section .section-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    background-color: rgb(209, 235, 235);
+    
+    margin: 5px;
+}
+
+.section .section-div .image-sec {
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.section .section-div .image-sec h3 {
+    color: black;
+    font-size: larger;
+    text-align: center;
+    margin-right: 30px;
+}
